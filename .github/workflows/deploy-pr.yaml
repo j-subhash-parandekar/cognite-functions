@@ -8,7 +8,9 @@ jobs:
     strategy:
       matrix:
         function:
+
           - simulate_daily_events
+
 
     steps:
       - uses: actions/checkout@v2
